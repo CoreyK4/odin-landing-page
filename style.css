@@ -60,6 +60,11 @@ ul {
     align-items: center;
 }
 
+.hero .container img {
+    width: 600px;
+    height: 300px;
+}
+
 .hero-content {
     margin-right: 100px;
 }
@@ -84,4 +89,30 @@ ul {
     font-weight: bold;
     margin-top: 12px;
     padding: 8px 32px;
+}
+
+.boxes-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 42px;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.box {
+    text-align: center;
+    width: 180px;
+}
+
+.box img {
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    width: 180px;
+    height: 180px;
 }
