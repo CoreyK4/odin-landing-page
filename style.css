@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -91,6 +91,10 @@ ul {
     padding: 8px 32px;
 }
 
+.boxes-section {
+    margin-bottom: 100px;
+}
+
 .boxes-section h2 {
     color: #1F2937;
     font-size: 36px;
@@ -115,4 +119,26 @@ ul {
     border-radius: 16px;
     width: 180px;
     height: 180px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 125px;
+    margin: 0 auto;
+}
+
+.quote blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.quote figcaption {
+    text-align: right;
+    margin: 0 auto;
+    font-size: 24px;
+    width: 50vw;
 }
