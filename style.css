@@ -142,3 +142,30 @@ ul {
     font-size: 24px;
     width: 50vw;
 }
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    border-radius: 16px;;
+    color: white;
+    margin-block: 100px;
+    padding: 75px 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-box button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+}
