@@ -41,10 +41,20 @@ ul {
     margin-left: 18px;
 }
 
-.links a {
+.links a,
+.links a:visited {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+}
+
+.links a:hover {
+    color: #FFF;
+}
+
+.links a:active,
+.links a:focus {
+    color: #3882F6;
 }
 
 .hero {
@@ -89,6 +99,13 @@ ul {
     font-weight: bold;
     margin-top: 12px;
     padding: 8px 32px;
+}
+
+.hero-content button:hover {
+    color: hsl(90, 17%, 88%);
+    background-color: hsl(217, 91%, 39%);
+    outline: 2px solid hsl(90, 17%, 88%);
+    cursor: pointer;
 }
 
 .boxes-section {
@@ -168,4 +185,12 @@ ul {
     font-size: 18px;
     font-weight: bold;
     padding: 8px 32px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding-block: 42px;
 }
